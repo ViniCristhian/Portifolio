@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto Portfólio">
+    <meta name="author" content="viniCristhian">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+    <title>Meu Portifólio</title>
+</head>
+
+<body>
+    <!-- Cabeçalho da Página (header) -->
+    <header>
+
+        <!-- Div Conteudo do Cabeçalho -->
+        <div id="header_content">
+
+            <!-- Titulo Cabeçalho -->
+            <div id="titulo">
+                <h1>Vinícius Cristhian</h1>
+            </div>
+
+            <!-- Conteudo do Menu da Página (header) -->
+            <div id="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Principal da Página (main) -->
+    <main>
+
+        <!-- Seção Formulário de Contato e Redes Sociais -->
+        <section id="contact">
+
+            <!-- Seção do Formulário -->
+            <form action="#" method="submit" id="formulario">
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                <span id="txtNome"></span>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                <span id="txtEmail"></span>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+                <span id="txtMensagem"></span>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <!-- Seção do Google Maps -->
+            <article id="mapa">
+
+                <p>Rua Inácio Caetano</p>
+                <p>Campos do Jordão - SP</p>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d919.8946327229646!2d-45.59537933044038!3d-22.74390169871063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc89dbb53e071f%3A0xda882dd2f92d3651!2sR.%20In%C3%A1cio%20Caetano%2C%2018-58%20-%20Fracalanza%2C%20Campos%20do%20Jord%C3%A3o%20-%20SP%2C%2012460-000!5e0!3m2!1spt-BR!2sbr!4v1747085468433!5m2!1spt-BR!2sbr"
+                    width="600"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </article>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé da Página (footer) -->
+    <footer>
+
+        <section id="redes-sociais">
+            <a href="http://www.linkedin.com/in/vinicristhian/" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/img/linkedin.svg" alt="Logo LinkedIn" />
+            </a>
+            <a href="https://github.com/ViniCristhian" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/img/github.svg" alt="Logo GitHub" />
+            </a>
+            <a href="https://www.instagram.com/vinicristhian/" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/img/instagram.svg" alt="Logo Instagram" />
+            </a>
+        </section>
+
+        <h3>Feito com 💙 por Vinícius Cristhian - 2025</h3>
+
+    </footer>
+</body>
+
+</html>
