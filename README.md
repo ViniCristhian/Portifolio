@@ -26,11 +26,11 @@ Para visualizar o projeto localmente, siga as instruções abaixo:
 ### Passos
 
 1. Clone o repositório:
-	```bash
+```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
 ```
 2. Abra o projeto no Visual Studio Code:
-   ```bash
+```bash
    code seu-repositorio
 ```
 3. No VSCode, abra um arquivo HTML do projeto (ex: `index.html`).
